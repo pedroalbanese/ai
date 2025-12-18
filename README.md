@@ -28,22 +28,22 @@ pip install requests prompt_toolkit websockets fastapi "pydantic>=2.0" bcrypt uv
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull codellama:7b-instruct
 ollama pull deepseek-r1:latest
-ollama pull wizardcoder:33b               // 18GB
-ollama pull deepseek-coder:33b-instruct   // 18GB
-ollama pull deepseek-coder:1.3b           // 700MB
+ollama pull wizardcoder:33b                       # 18GB
+ollama pull deepseek-coder:33b-instruct           # 18GB
+ollama pull deepseek-coder:1.3b                   # 700MB
 ```
 ### 1. HEALTH & SYSTEM
 ```
-python client.py --health                         # Check server status
-python client.py --list                           # List all sessions
+python client.py --health                          # Check server status
+python client.py --list                            # List all sessions
 ```
 ### 2. SESSION MANAGEMENT
 ```
 python client.py --register
 python client.py --login
-python client.py --create "My Session"            # Create session
-python client.py --session abc-123-def            # Get session info
-python client.py --session abc-123-def --history  # View chat history
+python client.py --create "My Session"             # Create session
+python client.py --session abc-123-def             # Get session info
+python client.py --session abc-123-def --history   # View chat history
 ```
 ### 3. AGENT INTERACTION
 ```
@@ -52,19 +52,19 @@ python client.py --session abc-123-def --message "Type 'Hello World'"
 ```
 ### 4. VNC & STREAMING
 ```
-python client.py --session abc-123-def --vnc      # Get VNC connection info
-python client.py --session abc-123-def --stream   # Real-time stream
+python client.py --session abc-123-def --vnc       # Get VNC connection info
+python client.py --session abc-123-def --stream    # Real-time stream
 python client.py --session abc-123-def --websocket # Interactive WebSocket
 ```
 ### 5. DEMO & REMOTE
 ```
-python client.py --demo                           # Run complete demo
-python client.py --url http://192.168.1.100:8000  # Connect to remote server
+python client.py --demo                            # Run complete demo
+python client.py --url http://192.168.1.100:8000   # Connect to remote server
 python client.py --url http://remote:8000 --create "My Session"
 ```
 ### 6. INTERACTIVE MODE (MENU)
 ```
-python client.py                                  # Start interactive menu
+python client.py                                    # Start interactive menu
 ```
 ### 8. TROUBLESHOOTING
 ```
