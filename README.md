@@ -25,7 +25,8 @@ pip install requests prompt_toolkit websockets fastapi "pydantic>=2.0" bcrypt uv
 
 ### 1. HEALTH & SYSTEM
 ```
-python client.py --health                         # Check server statuspython client.py --list                           # List all sessions
+python client.py --health                         # Check server status
+python client.py --list                           # List all sessions
 ```
 ### 2. SESSION MANAGEMENT
 ```
