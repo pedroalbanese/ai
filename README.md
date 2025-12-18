@@ -18,10 +18,14 @@ The AI Daemon is designed to be:
 
 In short, the AI Daemon transforms a local LLM into a reliable, always-on Python-based coding copilot, tailored for developers who value performance, privacy, and control.
 
+### 0. INSTALLATION
+```
+pip install requests prompt_toolkit websockets fastapi "pydantic>=2.0" bcrypt uvicorn
+```
+
 ### 1. HEALTH & SYSTEM
 ```
-python client.py --health                         # Check server status
-python client.py --list                           # List all sessions
+python client.py --health                         # Check server statuspython client.py --list                           # List all sessions
 ```
 ### 2. SESSION MANAGEMENT
 ```
