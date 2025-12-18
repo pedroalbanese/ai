@@ -61,7 +61,8 @@ python client.py --url http://localhost:8080 --health  # Test connection
 
 ## Chat
 ```
-Usage: python chat.py SESSION_ID [--session SESSION_ID] [--url BASE_URL] [--username USERNAME] [--password PASSWORD]
+Usage: python chat.py SESSION_ID [--session SESSION_ID] [--url BASE_URL]
+       [--username USERNAME] [--password PASSWORD]
 
 Examples:
   python chat.py session_123 --username admin --password admin123
