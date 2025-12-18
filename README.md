@@ -20,7 +20,7 @@ In short, the AI Daemon transforms a local LLM into a reliable, always-on Python
 
 ### 0. INSTALLATION
 ```
-pip install requests prompt_toolkit websockets fastapi "pydantic>=2.0" bcrypt uvicorn
+pip install requests prompt_toolkit websockets fastapi "pydantic>=2.0" bcrypt uvicorn ollama
 ```
 
 ### 1. HEALTH & SYSTEM
