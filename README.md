@@ -17,7 +17,6 @@ python client.py --session abc-123-def --history  # View chat history
 ```
 python client.py --session abc-123-def --message "Open Chrome"
 python client.py --session abc-123-def --message "Type 'Hello World'"
-python client.py --session abc-123-def --message "Save to file.txt"
 ```
 ### 4. VNC & STREAMING
 ```
