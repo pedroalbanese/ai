@@ -19,10 +19,19 @@ The AI Daemon is designed to be:
 In short, the AI Daemon transforms a local LLM into a reliable, always-on Python-based coding copilot, tailored for developers who value performance, privacy, and control.
 
 ### 0. INSTALLATION
+#### Dependencies
 ```
-pip install requests prompt_toolkit websockets fastapi "pydantic>=2.0" bcrypt uvicorn ollama
+pip install requests prompt_toolkit websockets fastapi "pydantic>=2.0" bcrypt uvicorn
 ```
-
+#### Ollama and Models
+```
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull codellama:7b-instruct
+ollama pull deepseek-r1:latest
+ollama pull wizardcoder:33b                           // 18GB
+ollama pull ollama pull deepseek-coder:33b-instruct   // 18GB
+ollama pull deepseek-coder:1.3b                       // 700MB
+```
 ### 1. HEALTH & SYSTEM
 ```
 python client.py --health                         # Check server status
