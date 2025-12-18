@@ -1,4 +1,22 @@
 # AI Daemon
+The AI Daemon is a lightweight, pure-Python autonomous assistant designed to act as a programming copilot. It runs as a background daemon and connects to an Ollama-powered local LLM server, enabling fast, private, and offline-capable AI assistance for software development.
+
+Built entirely in Python, the AI Daemon integrates seamlessly into development workflows, providing real-time support for coding tasks such as:
+
+- Code generation and refactoring
+- Debugging and error analysis
+- Explaining existing codebases
+- Writing tests and documentation
+- Assisting with architecture and design decisions
+
+By leveraging Ollama on the server side, the AI Daemon avoids cloud dependencies, ensuring low latency, data privacy, and full control over the models used. Its daemon-based architecture allows it to remain always available, responding to requests from editors, CLIs, or other tools without interrupting the developer’s workflow.
+
+The AI Daemon is designed to be:
+
+- Efficient – minimal overhead, optimized for continuous use
+- Developer-focused – acts as a true copilot, not just a chatbot
+
+In short, the AI Daemon transforms a local LLM into a reliable, always-on Python-based coding copilot, tailored for developers who value performance, privacy, and control.
 
 ### 1. HEALTH & SYSTEM
 ```
