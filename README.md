@@ -28,9 +28,9 @@ pip install requests prompt_toolkit websockets fastapi "pydantic>=2.0" bcrypt uv
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull codellama:7b-instruct
 ollama pull deepseek-r1:latest
-ollama pull wizardcoder:33b                           // 18GB
-ollama pull ollama pull deepseek-coder:33b-instruct   // 18GB
-ollama pull deepseek-coder:1.3b                       // 700MB
+ollama pull wizardcoder:33b               // 18GB
+ollama pull deepseek-coder:33b-instruct   // 18GB
+ollama pull deepseek-coder:1.3b           // 700MB
 ```
 ### 1. HEALTH & SYSTEM
 ```
