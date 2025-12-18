@@ -211,7 +211,11 @@ def exact_client_replica():
     # --------------------------------------------------
     # INTERACTIVE CHAT MODE
     # --------------------------------------------------
-    print("\n💬 Interactive chat started (type 'exit' to quit)")
+    print("\n💬 Interactive chat started")
+    print("📝 Input help:")
+    print("   • ENTER        → new line")
+    print("   • ALT + ENTER  → send message")
+    print("   • type 'exit'  → quit")
     print("=" * 60)
 
     while True:
