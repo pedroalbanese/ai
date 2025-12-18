@@ -46,7 +46,7 @@ python client.py --session abc-123-def --websocket # Interactive WebSocket
 ```
 python client.py --demo                           # Run complete demo
 python client.py --url http://192.168.1.100:8000  # Connect to remote server
-python client.py --url http://remote:8000 --create user1
+python client.py --url http://remote:8000 --create "My Session"
 ```
 ### 6. INTERACTIVE MODE (MENU)
 ```
