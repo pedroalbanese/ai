@@ -33,7 +33,7 @@ python client.py --session abc-123-def --history  # View chat history
 ```
 ### 3. AGENT INTERACTION
 ```
-python client.py --session abc-123-def --message "Open Chrome"
+python client.py --session abc-123-def --message "What time is it?"
 python client.py --session abc-123-def --message "Type 'Hello World'"
 ```
 ### 4. VNC & STREAMING
