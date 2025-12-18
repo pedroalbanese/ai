@@ -50,7 +50,8 @@ def get_args():
         if len(args) >= 1:
             session_id = args[0]
         else:
-            print("Usage:")
+            print("Usage: python chat.py SESSION_ID [--session SESSION_ID] [--url BASE_URL] [--username USERNAME] [--password PASSWORD] [--watch]")
+            print("\nExamples:")
             print("  python chat.py SESSION_ID [--watch]")
             print("  python chat.py SESSION_ID --username USER --password PASS")
             sys.exit(1)
