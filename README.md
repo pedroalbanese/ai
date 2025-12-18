@@ -1,4 +1,4 @@
-# Computer Use Agent Client - AI Daemon
+# AI Daemon
 
 ### 1. HEALTH & SYSTEM
 ```
